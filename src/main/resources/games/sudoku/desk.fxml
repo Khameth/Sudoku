@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.DeskController">
+   <children>
+      <Rectangle fx:id="rectangle11" arcWidth="5.0" fill="WHITE" height="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="rectangle12" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle13" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle21" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle22" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle23" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle31" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle32" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle33" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle17" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle18" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle19" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle27" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle28" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle29" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle37" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle38" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle39" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle71" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle72" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle73" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle81" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle82" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle83" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle91" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle92" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle93" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle77" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle78" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle79" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle87" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle88" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle89" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle97" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle98" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle99" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="374.0" onMouseClicked="#switchToCongratScreen" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle14" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle15" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle16" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle24" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle25" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle26" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="46.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle34" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle35" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle36" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="92.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle74" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle75" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle76" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="282.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle84" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle85" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle86" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="328.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle94" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle95" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle96" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="374.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle41" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle42" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle43" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle51" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle52" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle53" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle61" arcWidth="5.0" fill="WHITE" height="46.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle62" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="46.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle63" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="92.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle44" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle45" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle46" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle54" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle55" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle56" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle64" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="141.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle65" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="187.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle66" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="233.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle47" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle48" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle49" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="141.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle57" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle58" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle59" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="187.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle67" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="282.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle68" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="328.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Rectangle fx:id="rectangle69" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="374.0" layoutY="233.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" width="46.0" />
+      <Line fx:id="line_up" endX="240.0" layoutX="208.0" layoutY="138.0" startX="-240.0" strokeWidth="8.0" />
+      <Line fx:id="line_down" endX="240.0" layoutX="236.0" layoutY="279.0" startX="-240.0" strokeWidth="8.0" />
+      <Line fx:id="line_left" endX="240.0" layoutX="139.0" layoutY="203.0" rotate="90.0" startX="-240.0" strokeWidth="8.0" AnchorPane.rightAnchor="37.0" />
+      <Line fx:id="line_right" endX="240.0" layoutX="281.0" layoutY="194.0" rotate="90.0" startX="-240.0" strokeWidth="8.0" />
+      <Text fx:id="text11" boundsType="VISUAL" layoutX="9.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="text12" boundsType="VISUAL" layoutX="55.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text13" boundsType="VISUAL" layoutX="101.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text21" boundsType="VISUAL" layoutX="9.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text22" boundsType="VISUAL" layoutX="55.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text23" boundsType="VISUAL" layoutX="101.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text31" boundsType="VISUAL" layoutX="9.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text32" boundsType="VISUAL" layoutX="55.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text33" boundsType="VISUAL" layoutX="101.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text17" boundsType="VISUAL" layoutX="291.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text18" boundsType="VISUAL" layoutX="337.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text19" boundsType="VISUAL" layoutX="383.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text27" boundsType="VISUAL" layoutX="291.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text28" boundsType="VISUAL" layoutX="337.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text29" boundsType="VISUAL" layoutX="383.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text37" boundsType="VISUAL" layoutX="291.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text38" boundsType="VISUAL" layoutX="337.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text39" boundsType="VISUAL" layoutX="383.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text71" boundsType="VISUAL" layoutX="9.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text72" boundsType="VISUAL" layoutX="55.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text73" boundsType="VISUAL" layoutX="101.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text81" boundsType="VISUAL" layoutX="9.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text82" boundsType="VISUAL" layoutX="55.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text83" boundsType="VISUAL" layoutX="101.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text91" boundsType="VISUAL" layoutX="9.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text92" boundsType="VISUAL" layoutX="55.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text93" boundsType="VISUAL" layoutX="101.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text77" boundsType="VISUAL" layoutX="291.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text78" boundsType="VISUAL" layoutX="337.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text79" boundsType="VISUAL" layoutX="383.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text87" boundsType="VISUAL" layoutX="291.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text88" boundsType="VISUAL" layoutX="337.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text89" boundsType="VISUAL" layoutX="383.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text97" boundsType="VISUAL" layoutX="291.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text98" boundsType="VISUAL" layoutX="337.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text99" boundsType="VISUAL" layoutX="383.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text14" boundsType="VISUAL" layoutX="150.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text15" boundsType="VISUAL" layoutX="196.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text16" boundsType="VISUAL" layoutX="242.0" layoutY="39.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text24" boundsType="VISUAL" layoutX="150.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text25" boundsType="VISUAL" layoutX="196.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text26" boundsType="VISUAL" layoutX="242.0" layoutY="85.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text34" boundsType="VISUAL" layoutX="150.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text35" boundsType="VISUAL" layoutX="196.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text36" boundsType="VISUAL" layoutX="242.0" layoutY="131.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text74" boundsType="VISUAL" layoutX="150.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text75" boundsType="VISUAL" layoutX="196.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text76" boundsType="VISUAL" layoutX="242.0" layoutY="321.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text84" boundsType="VISUAL" layoutX="150.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text85" boundsType="VISUAL" layoutX="196.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text86" boundsType="VISUAL" layoutX="242.0" layoutY="367.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text94" boundsType="VISUAL" layoutX="150.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text95" boundsType="VISUAL" layoutX="196.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text96" boundsType="VISUAL" layoutX="242.0" layoutY="413.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text41" boundsType="VISUAL" layoutX="9.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text42" boundsType="VISUAL" layoutX="55.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text43" boundsType="VISUAL" layoutX="101.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text51" boundsType="VISUAL" layoutX="9.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text52" boundsType="VISUAL" layoutX="55.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text53" boundsType="VISUAL" layoutX="101.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text61" boundsType="VISUAL" layoutX="9.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text62" boundsType="VISUAL" layoutX="55.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text63" boundsType="VISUAL" layoutX="101.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text44" boundsType="VISUAL" layoutX="150.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text45" boundsType="VISUAL" layoutX="196.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text46" boundsType="VISUAL" layoutX="242.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text54" boundsType="VISUAL" layoutX="150.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text55" boundsType="VISUAL" layoutX="196.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text56" boundsType="VISUAL" layoutX="242.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text64" boundsType="VISUAL" layoutX="150.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text65" boundsType="VISUAL" layoutX="196.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text66" boundsType="VISUAL" layoutX="242.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text47" boundsType="VISUAL" layoutX="291.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text48" boundsType="VISUAL" layoutX="337.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text49" boundsType="VISUAL" layoutX="383.0" layoutY="180.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text57" boundsType="VISUAL" layoutX="291.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text58" boundsType="VISUAL" layoutX="337.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text59" boundsType="VISUAL" layoutX="383.0" layoutY="226.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text67" boundsType="VISUAL" layoutX="291.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text68" boundsType="VISUAL" layoutX="337.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="text69" boundsType="VISUAL" layoutX="383.0" layoutY="272.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

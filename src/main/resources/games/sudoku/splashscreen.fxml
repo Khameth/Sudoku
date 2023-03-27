@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#switchToMenu" prefHeight="420.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SplashscreenController">
+   <children>
+      <Line fx:id="line_up" endX="240.0" layoutX="210.0" layoutY="-20.0" startX="-240.0" strokeWidth="8.0" />
+      <Line fx:id="line_down" endX="240.0" layoutX="214.0" layoutY="440.0" startX="-240.0" strokeWidth="8.0" />
+      <Line fx:id="line_left" endX="240.0" layoutX="-21.0" layoutY="210.0" rotate="90.0" startX="-240.0" strokeWidth="8.0" />
+      <Line fx:id="line_right" endX="240.0" layoutX="440.0" layoutY="208.0" rotate="90.0" startX="-240.0" strokeWidth="8.0" />
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="140.0">
+         <children>
+            <Text fx:id="textS" boundsType="VISUAL" layoutX="29.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S" wrappingWidth="35.49176025390625">
+               <font>
+                  <Font size="150.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="140.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0">
+         <children>
+            <Text fx:id="textU1" boundsType="VISUAL" layoutX="29.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="U" wrappingWidth="35.49176025390625">
+               <font>
+                  <Font size="150.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="144.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="140.0" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="140.0">
+         <children>
+            <Text fx:id="textD" boundsType="VISUAL" layoutX="29.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" wrappingWidth="35.49176025390625">
+               <font>
+                  <Font size="150.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="154.0" layoutY="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="140.0" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="140.0">
+         <children>
+            <Text fx:id="textO" boundsType="VISUAL" layoutX="29.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O" wrappingWidth="35.49176025390625">
+               <font>
+                  <Font size="150.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="154.0" layoutY="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="140.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="280.0">
+         <children>
+            <Text fx:id="textK" boundsType="VISUAL" layoutX="29.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K" wrappingWidth="35.49176025390625">
+               <font>
+                  <Font size="150.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="164.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="140.0" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="280.0">
+         <children>
+            <Text fx:id="textU2" boundsType="VISUAL" layoutX="29.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="U" wrappingWidth="35.49176025390625">
+               <font>
+                  <Font size="150.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
